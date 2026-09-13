@@ -16,7 +16,8 @@ import {
   Users,
   UserPlus,
 } from "lucide-react";
-import { can, type Permission } from "@/lib/auth";
+import { can } from "@/lib/auth";
+import type { Permission } from "@/lib/site";
 import { useCurrentProfile } from "@/lib/use-current-profile";
 
 type Action = {
